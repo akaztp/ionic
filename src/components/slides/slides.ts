@@ -834,7 +834,7 @@ export class Slides extends Ion {
   /** @internal */
   _rtl: boolean;
   /** @internal */
-  _slides: SlideElement[];
+  _slides: SlideElement[] = [];
   /** @internal */
   _snapGrid: any;
   /** @internal */
